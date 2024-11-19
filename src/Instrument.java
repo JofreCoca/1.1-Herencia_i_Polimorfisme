@@ -19,6 +19,6 @@ public abstract class Instrument {
     public abstract void tocar();
 
     static{
-        System.out.println("Està sonant un instrument de vent");
+        System.out.println("Accés a un membre estàtic d'aquesta classe");
     }
 }
