@@ -7,5 +7,6 @@ public class Telefon {
 
     public void trucar(String numeroTelefon){
 
+        System.out.println("S'està trucant al número "+numeroTelefon);
     }
 }
