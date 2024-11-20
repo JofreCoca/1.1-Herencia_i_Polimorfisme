@@ -1,4 +1,6 @@
-package Nivell_2_Exercici_1;
+package Nivell_2_Exercici_1.Main;
+
+import Nivell_2_Exercici_1.Moduls.Smartphone;
 
 public class Main {
 

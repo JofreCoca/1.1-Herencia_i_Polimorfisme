@@ -1,4 +1,4 @@
-package Nivell_2_Exercici_1;
+package Nivell_2_Exercici_1.Moduls;
 
 public class Smartphone extends Telefon implements Camera,Rellotge{
 
