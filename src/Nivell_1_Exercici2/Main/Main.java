@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Invoco el mètode estàtic frenar() des de la classe:");
         Cotxe.frenar();
-        Cotxe cotxe=new Cotxe("Fiesta",1200);
+        Cotxe cotxe=new Cotxe(1200);
         System.out.println("Invoco el mètode no estàtic accelerar() des de l'objecte:");
         cotxe.accelerar();
     }
