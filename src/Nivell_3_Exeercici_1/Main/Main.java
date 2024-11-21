@@ -103,12 +103,6 @@ public class Main {
         return redactor;
     }
 
-    public static String recullirDniTeclat(){
-        Scanner entradaTeclat = new Scanner(System.in);
-        System.out.println("Introdueix el DNI del redactor");
-        return entradaTeclat.nextLine();
-    }
-
     public static void introduirNoticia(ArrayList<Redactor> redactors){
         Redactor redactor = buscarRedactor(redactors,recullirDniTeclat());
         if(redactor==null){
@@ -257,6 +251,13 @@ public class Main {
         }
         return preu;
     }
+
+    public static String recullirDniTeclat(){
+        Scanner entradaTeclat = new Scanner(System.in);
+        System.out.println("Introdueix el DNI del redactor");
+        return entradaTeclat.nextLine();
+    }
+
     public static String recullirTitularTeclat(){
         Scanner entradaTeclat = new Scanner(System.in);
         System.out.println("Introdueix el titular de la noticia");
