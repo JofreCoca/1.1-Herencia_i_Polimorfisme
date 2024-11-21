@@ -1,6 +1,6 @@
-package Nivell_3_Exeercici_1;
+package Nivell_3_Exeercici_1.Moduls;
 
-public class NoticiaF1 extends Noticia{
+public class NoticiaF1 extends Noticia {
 
     private String escuderia;
 

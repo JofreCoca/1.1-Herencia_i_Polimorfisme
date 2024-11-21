@@ -1,6 +1,6 @@
-package Nivell_3_Exeercici_1;
+package Nivell_3_Exeercici_1.Moduls;
 
-public class NoticiaFutbol extends Noticia{
+public class NoticiaFutbol extends Noticia {
     private String competicio;
     private String club;
     private String jugador;

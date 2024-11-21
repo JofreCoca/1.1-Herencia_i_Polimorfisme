@@ -1,4 +1,6 @@
-package Nivell_3_Exeercici_1;
+package Nivell_3_Exeercici_1.Main;
+
+import Nivell_3_Exeercici_1.Moduls.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,6 +1,6 @@
-package Nivell_3_Exeercici_1;
+package Nivell_3_Exeercici_1.Moduls;
 
-public class NoticiaMotociclisme extends Noticia{
+public class NoticiaMotociclisme extends Noticia {
 
     private String equip;
 
