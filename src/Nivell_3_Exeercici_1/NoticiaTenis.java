@@ -16,6 +16,7 @@ public class NoticiaTenis extends Noticia{
         if((tenistes.toLowerCase().indexOf("federer")>-1)
                 ||(tenistes.toLowerCase().indexOf("nadal")>-1)
                 ||(tenistes.toLowerCase().indexOf("djokovic")>-1)){preu+=100f;}
+        super.setPreu(preu);
         return preu;
     }
 
@@ -24,6 +25,7 @@ public class NoticiaTenis extends Noticia{
         if((tenistes.toLowerCase().indexOf("federer")>-1)
                 ||(tenistes.toLowerCase().indexOf("nadal")>-1)
                 ||(tenistes.toLowerCase().indexOf("djokovic")>-1)){punts+=3f;}
+        super.setPuntuacio(punts);
         return punts;
     }
 }

@@ -15,6 +15,7 @@ public class NoticiaBasquet extends Noticia{
         float preu = 250f;
         if(competicio.equalsIgnoreCase("Lliga de Campions")){preu+=75f;}
         if(club.equalsIgnoreCase("Barça")||club.equalsIgnoreCase("Madrid")){preu+=75f;}
+        super.setPreu(preu);
         return preu;
     }
 
@@ -23,6 +24,7 @@ public class NoticiaBasquet extends Noticia{
         if(competicio.equalsIgnoreCase("Eurolliuga")){punts+=3f;}
         if(competicio.equalsIgnoreCase("ACB")){punts+=2f;}
         if(club.equalsIgnoreCase("Barça")||club.equalsIgnoreCase("Madrid")){punts+=1f;}
+        super.setPuntuacio(punts);
         return punts;
     }
 }

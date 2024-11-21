@@ -7,7 +7,7 @@ public class Redactor {
     private String nom;
     private final String DNI;
     private static float sou = 1500f;
-    private ArrayList<Noticia> noticies = new ArrayList<Noticia>();
+    private ArrayList<Noticia> noticies;
 
     public Redactor(String nom,String DNI) {
        this.nom = nom;
@@ -17,6 +17,10 @@ public class Redactor {
 
     public String getDNI() {
         return DNI;
+    }
+
+    public ArrayList<Noticia> getNoticies() {
+        return noticies;
     }
 
     public String toString() {

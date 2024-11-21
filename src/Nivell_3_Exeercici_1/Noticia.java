@@ -14,9 +14,32 @@ public abstract class Noticia {
         this.preu=0f;
     }
 
+    public String getTitular() {
+        return titular;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setPuntuacio(float puntuacio) {
+        this.puntuacio = puntuacio;
+    }
+
+    public void setPreu(float preu) {
+        this.preu = preu;
+    }
+
     public abstract float calcularPreuNoticia();
 
     public abstract float calcularPuntuacio();
 
-
+    public String toString() {
+        return "Noticia{" +
+                "titular='" + titular + '\'' +
+                ", text='" + text + '\'' +
+                ", puntuacio=" + puntuacio +
+                ", preu=" + preu +
+                '}';
+    }
 }

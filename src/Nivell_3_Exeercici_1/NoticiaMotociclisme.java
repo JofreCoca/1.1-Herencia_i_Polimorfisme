@@ -12,12 +12,14 @@ public class NoticiaMotociclisme extends Noticia{
     public float calcularPreuNoticia() {
         float preu = 100f;
         if(equip.equalsIgnoreCase("Honda")||equip.equalsIgnoreCase("Yamaha")){preu+=50f;}
+        super.setPreu(preu);
         return preu;
     }
 
     public float calcularPuntuacio() {
         float punts=3;
         if(equip.equalsIgnoreCase("Honda")||equip.equalsIgnoreCase("Yamaha")){punts+=3f;}
+        super.setPuntuacio(punts);
         return punts;
     }
 }
