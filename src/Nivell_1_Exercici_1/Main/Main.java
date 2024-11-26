@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Accés a un membre estàtic: "+InstrumentVent.tipus);
+        System.out.println("Accés al membre estàtic "+InstrumentVent.tipus+" i ja no torna a carregar la primera instància d'aquesta classe");
 
         InstrumentVent instrumentVent=new InstrumentVent("Flauta",20);
         InstrumentCorda instrumentCorda=new InstrumentCorda("Guitarra",150);
