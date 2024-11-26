@@ -11,6 +11,20 @@ public class Cotxe {
         System.out.println(" Accés a un atribut final d'aquesta classe en el contructor: "+this.POTENCIA);
     }
 
+    public String getModel() {
+        return model;
+    }
+
+    public int getPOTENCIA() {
+        return POTENCIA;
+    }
+
+
+
+    public static void setModel(String model) {
+        Cotxe.model = model;
+    }
+
     public static void frenar(){
         System.out.println(" El vehicle "+MARCA + " "+model+" està frenant");
     }
