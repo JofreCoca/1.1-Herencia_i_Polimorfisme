@@ -8,6 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("Accés a un membre estàtic: "+InstrumentVent.tipus);
+
         InstrumentVent instrumentVent=new InstrumentVent("Flauta",20);
         InstrumentCorda instrumentCorda=new InstrumentCorda("Guitarra",150);
         InstrumentPercussio instrumentPercussio=new InstrumentPercussio("Batería",400);

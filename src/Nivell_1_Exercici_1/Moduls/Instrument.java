@@ -21,7 +21,7 @@ public abstract class Instrument {
     public abstract void tocar();
 
     static{
-        System.out.println("Accés a un membre estàtic d'aquesta classe");
+        System.out.println("Primera instància d'aquesta classe");
     }
 }
 
