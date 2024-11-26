@@ -33,7 +33,9 @@ public class Main {
                 case 5:
                     String dni=recullirDniTeclat();
                     Redactor redactor=buscarRedactor(redactors,dni);
-                    MostrarTotesLesNotíciesPerRedactor(redactor);
+                    if(redactor!=null){
+                        MostrarTotesLesNotíciesPerRedactor(redactor);
+                    }
                     break;
                 case 6:
                     System.out.println("La puntuació és: "+CalcularPuntuacióNoticia(redactors));
