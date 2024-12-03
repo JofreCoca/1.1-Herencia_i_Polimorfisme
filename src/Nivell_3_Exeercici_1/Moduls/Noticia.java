@@ -9,9 +9,6 @@ public abstract class Noticia {
 
     public Noticia(String titular){
         this.titular=titular;
-        this.text="";
-        this.puntuacio=0f;
-        this.preu=0f;
     }
 
     public String getTitular() {
@@ -20,6 +17,14 @@ public abstract class Noticia {
 
     public String getText() {
         return text;
+    }
+
+    public float getPuntuacio() {
+        return puntuacio;
+    }
+
+    public float getPreu() {
+        return preu;
     }
 
     public void setPuntuacio(float puntuacio) {
