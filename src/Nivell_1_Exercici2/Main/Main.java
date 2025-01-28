@@ -17,8 +17,5 @@ public class Main {
         System.out.println("Modifico l'atribut static de la classe Cotxei verifico en dos objectes:");
         System.out.println("Coche 1: "+cotxe.getModel());
         System.out.println("Coche 2: "+cotxe2.getModel());
-
-
-
     }
 }
